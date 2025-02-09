@@ -6,7 +6,6 @@
 #include <numeric>
 
 int main() {
-    std::array<int, 5> coinNominals = {50, 20, 10, 5, 1};
     std::vector<int> nomCounts(5);
     int money;
     std::cin >> money;
